@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SwiftShield VPN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0A0F1D;
+            --card-bg: #111B34;
+            --accent-cyan: #00E5FF;
+            --accent-blue: #2979FF;
+            --text-main: #F1F5F9;
+            --text-muted: #94A3B8;
+            --border-color: rgba(255, 255, 255, 0.08);
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.68;
+            padding: 0 20px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 40px auto 80px auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .logo-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 8px 24px rgba(0, 229, 255, 0.25);
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #FFFFFF, var(--accent-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            color: var(--accent-cyan);
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        .nav-links {
+            margin-top: 16px;
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+        }
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover {
+            color: var(--accent-cyan);
+        }
+        .section-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            font-size: 1.35rem;
+            color: #FFFFFF;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 4px;
+            height: 20px;
+            background: var(--accent-cyan);
+            border-radius: 2px;
+        }
+        p {
+            color: var(--text-muted);
+            margin-bottom: 14px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 14px;
+        }
+        li {
+            color: var(--text-muted);
+            padding: 6px 0 6px 24px;
+            position: relative;
+        }
+        li::before {
+            content: "✓";
+            color: var(--accent-cyan);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(0, 229, 255, 0.12);
+            color: var(--accent-cyan);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .footer {
+            text-align: center;
+            color: #64748B;
+            font-size: 0.85rem;
+            margin-top: 40px;
+        }
+        a.contact-link {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a.contact-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="assets/app_icon.png" alt="SwiftShield VPN Logo" class="logo-img">
+            <h1>SwiftShield VPN</h1>
+            <div class="last-updated">Official Privacy Policy • Effective Date: September 2026</div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="privacy-policy.html" style="color: var(--accent-cyan);">Privacy Policy</a>
+                <a href="delete-account.html">Data Deletion</a>
+                <a href="terms-of-service.html">Terms of Service</a>
+            </nav>
+        </header>
+
+        <div class="section-card">
+            <span class="badge">OVERVIEW & COMMITMENT</span>
+            <h2>1. Introduction</h2>
+            <p>Welcome to <strong>SwiftShield VPN</strong> ("we", "our", or "the Application"). We are dedicated to providing secure, encrypted internet connectivity while respecting and safeguarding your personal privacy.</p>
+            <p>This Privacy Policy explains what information is handled when you use SwiftShield VPN, our strict no-logging principles, how the Android <strong>VpnService</strong> is utilized, and how third-party advertising partners function within the free version of the Application.</p>
+        </div>
+
+        <div class="section-card">
+            <span class="badge">GOOGLE PLAY VPNSERVICE COMPLIANCE</span>
+            <h2>2. Android VpnService & Encrypted Tunnel</h2>
+            <p>SwiftShield VPN uses Android's native <strong>VpnService</strong> as its foundational and primary core functionality.</p>
+            <ul>
+                <li><strong>Purpose:</strong> To establish a device-level secure, encrypted virtual private network tunnel to remote proxy endpoints, protecting your communications on public Wi-Fi and untrusted networks.</li>
+                <li><strong>Encryption:</strong> Data transmitted through the tunnel is encrypted end-to-end between your device and the VPN tunnel endpoint using industry-standard protocols (OpenVPN with AES-256 encryption).</li>
+                <li><strong>No Traffic Manipulation:</strong> SwiftShield VPN does <em>not</em> modify, intercept, inspect, or inject advertisements into your network traffic, website visits, or other applications.</li>
+                <li><strong>User Consent:</strong> Before establishing any tunnel connection, a prominent in-app disclosure is displayed detailing our VPN functionality, requiring your explicit consent before system permissions are requested.</li>
+            </ul>
+        </div>
+
+        <div class="section-card">
+            <span class="badge">STRICT DATA PROTECTION</span>
+            <h2>3. Our Zero-Logs Policy</h2>
+            <p>We maintain a rigorous zero-logs commitment regarding your private online browsing activity. When connected to SwiftShield VPN:</p>
+            <ul>
+                <li>We <strong>do not</strong> log or store the websites, apps, or online services you access.</li>
+                <li>We <strong>do not</strong> record your original real IP address during or after your connection session.</li>
+                <li>We <strong>do not</strong> monitor or record DNS queries made through the encrypted tunnel.</li>
+                <li>We <strong>do not</strong> log, record, or inspect the contents of your internet traffic.</li>
+            </ul>
+        </div>
+
+        <div class="section-card">
+            <span class="badge">MONETIZATION & THIRD-PARTY SDKs</span>
+            <h2>4. Advertising in the Free Version (Google AdMob)</h2>
+            <p>SwiftShield VPN is offered as a free-to-use utility supported by non-intrusive in-app advertisements delivered via <strong>Google Mobile Ads (AdMob)</strong> SDK.</p>
+            <p>To serve advertisements and detect fraud, Google AdMob may process certain technical data as permitted by its privacy policy:</p>
+            <ul>
+                <li><strong>Ephemeral Device Identifiers:</strong> Google Advertising ID (GAID) used by Google for ad attribution and frequency capping.</li>
+                <li><strong>Diagnostic & Performance Data:</strong> Ad load times, error logs, and performance metrics collected by Google Play Services.</li>
+            </ul>
+            <p>Ads are rendered <strong>strictly inside SwiftShield VPN's own user interface</strong> (banner and post-disconnect interstitials). We never monetize third-party traffic or inject ads into third-party websites or external apps.</p>
+            <p>For more details on Google's privacy practices, please visit <a href="https://policies.google.com/privacy" class="contact-link" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads" class="contact-link" target="_blank" rel="noopener">How Google Uses Data in Advertising</a>.</p>
+        </div>
+
+        <div class="section-card">
+            <span class="badge">PERMISSIONS</span>
+            <h2>5. Device Permissions Required</h2>
+            <p>The Application requests only the minimum necessary Android permissions to function:</p>
+            <ul>
+                <li><strong>android.permission.INTERNET:</strong> Essential for internet communication and establishing the VPN handshake.</li>
+                <li><strong>android.permission.BIND_VPN_SERVICE:</strong> Core permission required by the Android OS to route network packets through the secure tunnel.</li>
+                <li><strong>android.permission.FOREGROUND_SERVICE:</strong> Required to maintain the VPN connection alive in the background without being killed by OS battery optimizations.</li>
+                <li><strong>android.permission.POST_NOTIFICATIONS:</strong> Optional permission on Android 13+ to display the active VPN status and live session timer in your status bar.</li>
+            </ul>
+        </div>
+
+        <div class="section-card">
+            <span class="badge">GDPR & CCPA PRIVACY RIGHTS</span>
+            <h2>6. User Privacy Rights & Data Control</h2>
+            <p>Under regulations including the EU General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA), you have the right to:</p>
+            <ul>
+                <li>Opt-out of personalized advertising at any time through your Android device settings (<em>Settings &rarr; Google &rarr; Ads &rarr; Reset or Delete Advertising ID</em>).</li>
+                <li>Clear all locally cached preferences and server favorites directly within the Application via <em>Settings &rarr; Clear Server Cache</em>.</li>
+                <li>Request information on data handling practices or submit inquiry requests as detailed below.</li>
+            </ul>
+        </div>
+
+        <div class="section-card">
+            <span class="badge">CHILDREN'S PRIVACY</span>
+            <h2>7. Children's Privacy</h2>
+            <p>SwiftShield VPN does not knowingly collect personal identifiable information from children under the age of 13 (or under 16 in the EEA). If you believe a child has provided personal information to us, please contact us so we can take immediate corrective measures.</p>
+        </div>
+
+        <div class="section-card">
+            <span class="badge">POLICY UPDATES & INQUIRIES</span>
+            <h2>8. Changes to this Policy & Contact</h2>
+            <p>We may update this Privacy Policy periodically to reflect technological, legal, or operational developments. Any revisions will be published immediately on this page with an updated Effective Date.</p>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact our support team:</p>
+            <p><strong>Developer:</strong> Raqeeb Ahmed<br>
+            <strong>Application:</strong> SwiftShield VPN<br>
+            <strong>Support Email:</strong> <a href="mailto:raqeebdeveloper@gmail.com" class="contact-link">raqeebdeveloper@gmail.com</a></p>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2026 SwiftShield VPN. All rights reserved. Designed for speed, security, and digital freedom.</p>
+        </footer>
+    </div>
+</body>
+</html>
